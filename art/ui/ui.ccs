@@ -1,0 +1,16 @@
+<Solution>
+  <PropertyGroup Name="ui" Version="2.3.1.2" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="MainScene.csd" Type="Scene" />
+        <Image Name="background.jpg" />
+        <Image Name="button.png" />
+        <Image Name="button_highlight.png" />
+        <Image Name="CloseNormal.png" />
+        <Image Name="CloseSelected.png" />
+        <Image Name="button_disable.png" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
