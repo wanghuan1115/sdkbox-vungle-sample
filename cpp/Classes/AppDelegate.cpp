@@ -1,5 +1,6 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
+#include "PluginVungle/PluginVungle.h"
 
 USING_NS_CC;
 
