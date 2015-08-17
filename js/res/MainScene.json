@@ -1,0 +1,403 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "2.3.1.2",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 77,
+              "G": 77,
+              "B": 77
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 5,
+            "ActionTag": -365362835,
+            "Size": {
+              "X": 1334.0,
+              "Y": 750.0
+            },
+            "Name": "background",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 36,
+            "ButtonText": "Reward",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "button_disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "button_highlight.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 72,
+            "Scale9Height": 18,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 345.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.46
+            },
+            "PreSize": {
+              "X": 0.1529,
+              "Y": 0.1067
+            },
+            "LeftMargin": 565.0,
+            "RightMargin": 565.0,
+            "TopMargin": 365.0,
+            "BottomMargin": 305.0,
+            "Tag": 5,
+            "ActionTag": -803316964,
+            "Size": {
+              "X": 204.0,
+              "Y": 80.0
+            },
+            "Name": "btnReward",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 36,
+            "ButtonText": "Video",
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "button_disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "button_highlight.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "button.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 72,
+            "Scale9Height": 18,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 667.0,
+              "Y": 450.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6
+            },
+            "PreSize": {
+              "X": 0.1529,
+              "Y": 0.1067
+            },
+            "LeftMargin": 565.0,
+            "RightMargin": 565.0,
+            "TopMargin": 260.0,
+            "BottomMargin": 410.0,
+            "Tag": 4,
+            "ActionTag": -1627683760,
+            "Size": {
+              "X": 204.0,
+              "Y": 80.0
+            },
+            "Name": "btnVideo",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "CloseSelected.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "CloseNormal.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 13,
+            "Scale9OriginY": 11,
+            "Scale9Width": 14,
+            "Scale9Height": 18,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1253.0,
+              "Y": 696.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9393,
+              "Y": 0.928
+            },
+            "PreSize": {
+              "X": 0.03,
+              "Y": 0.0533
+            },
+            "HorizontalEdge": "RightEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 1233.0,
+            "RightMargin": 61.0,
+            "TopMargin": 34.0,
+            "BottomMargin": 676.0,
+            "Tag": 5,
+            "ActionTag": 1909132668,
+            "Size": {
+              "X": 40.0,
+              "Y": 40.0
+            },
+            "Name": "btnClose",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 48,
+            "LabelText": "Coins:",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 560.0,
+              "Y": 615.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4198,
+              "Y": 0.82
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "LeftEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 492.0,
+            "RightMargin": 706.0,
+            "TopMargin": 108.0,
+            "BottomMargin": 588.0,
+            "Tag": 6,
+            "ActionTag": 631261849,
+            "Size": {
+              "X": 136.0,
+              "Y": 54.0
+            },
+            "Name": "Text_1",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 48,
+            "LabelText": "0",
+            "HorizontalAlignmentType": "HT_Right",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 758.0,
+              "Y": 614.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5682,
+              "Y": 0.8187
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "HorizontalEdge": "LeftEdge",
+            "VerticalEdge": "TopEdge",
+            "LeftMargin": 745.0,
+            "RightMargin": 563.0,
+            "TopMargin": 109.0,
+            "BottomMargin": 587.0,
+            "Tag": 7,
+            "ActionTag": 2001628160,
+            "Size": {
+              "X": 26.0,
+              "Y": 54.0
+            },
+            "Name": "txtCoins",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1334.0,
+          "Y": 750.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "button.png",
+        "button_disable.png",
+        "button_highlight.png",
+        "CloseNormal.png",
+        "CloseSelected.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Scene"
+}
