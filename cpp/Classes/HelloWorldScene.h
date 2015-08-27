@@ -36,6 +36,8 @@ private:
     void onVungleFinished();
     
     void onVungleAdViewed(bool isComplete);
+    
+    void onVungleAdReward(const std::string& name);
 };
 
 #endif // __HELLOWORLD_SCENE_H__

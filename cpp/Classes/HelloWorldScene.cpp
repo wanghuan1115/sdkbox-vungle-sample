@@ -105,8 +105,17 @@ void HelloWorld::onVungleAdViewed(bool isComplete)
 {
     CCLOG("Video viewed");
     if (isComplete) {
-        _coin ++;
-        _txtCoin->setString(to_string(_coin));
+        CCLOG("Complete");
     }
+    else {
+        CCLOG("Not Complete");
+    }
+        
 }
 
+void HelloWorld::onVungleAdReward(const std::string& name)
+{
+    CCLOG("Receive reward");
+    _coin ++;
+    _txtCoin->setString(to_string(_coin));
+}

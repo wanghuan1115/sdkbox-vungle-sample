@@ -1,6 +1,7 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
 #include "PluginVungle/PluginVungle.h"
+#include "PluginVungle/PluginVungle.h"
 
 USING_NS_CC;
 
@@ -36,6 +37,9 @@ static int register_all_packages()
 }
 
 bool AppDelegate::applicationDidFinishLaunching() {
+
+    sdkbox::PluginVungle::init();
+
     // initialize director
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
