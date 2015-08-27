@@ -44,8 +44,13 @@ public:
         }
     }
 
+    void onVungleAdReward(const std::string& name) {
+        std::string fname = "onVungleAdReward";
+        invokeDelegate(fname, 3, name);
+    }
+
 private:
-    void invokeDelegate(std::string& fName, int argv) {
+    void invokeDelegate(std::string& fName, int tag, const std::string paramStr = "") {
         if (!s_cx) {
             return;
         }
@@ -73,10 +78,12 @@ private:
 #endif
         jsval dataVal[1];
 
-        if (1 == argv) {
+        if (1 == tag) {
             dataVal[0] = BOOLEAN_TO_JSVAL(true);
-        } else {
+        } else if (0 == tag || 2 == tag) {
             dataVal[0] = BOOLEAN_TO_JSVAL(false);
+        } else if (3 == tag) {
+            dataVal[0] = c_string_to_jsval(cx, paramStr.c_str());
         }
 
         if (JS_HasProperty(cx, obj, func_name, &hasAction) && hasAction) {
@@ -88,13 +95,13 @@ private:
             }
 
 #if MOZJS_MAJOR_VERSION >= 31
-            if (0 == argv) {
+            if (0 == tag) {
                 JS_CallFunctionName(cx, obj, func_name, JS::HandleValueArray::empty(), &retval);
             } else {
                 JS_CallFunctionName(cx, obj, func_name, JS::HandleValueArray::fromMarkedLocation(sizeof(dataVal)/sizeof(*dataVal), dataVal), &retval);
             }
 #else
-            if (0 == argv) {
+            if (0 == tag) {
                 JS_CallFunctionName(cx, obj, func_name, 0, nullptr, &retval);
             } else {
                 JS_CallFunctionName(cx, obj, func_name, sizeof(dataVal)/sizeof(*dataVal), dataVal, &retval);

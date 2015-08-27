@@ -33,9 +33,10 @@ var HelloWorldLayer = cc.Layer.extend({
             },
             onVungleAdViewed : function (isComplete) {
                 if (isComplete) {
-                    //
-                    self._coin ++;
-                    self._txtCoins.setString(self._coin);
+                    cc.log("Complete");
+                }
+                else {
+                    cc.log("Not Complete");
                 }
 
             },
@@ -44,6 +45,11 @@ var HelloWorldLayer = cc.Layer.extend({
             },
             onVungleFinished : function () {
                 cc.log("Ad Finished");
+            },
+            onVungleAdReward : function (name){
+                cc.log("Ad Reward");
+                self._coin ++;
+                self._txtCoins.setString(self._coin);
             }
         });
 
