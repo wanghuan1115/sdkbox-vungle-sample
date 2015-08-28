@@ -19,7 +19,7 @@
         <iOS_BundleID Value="iPhone Developer: NiTe Luo (38SE4S3A55)" />
         <Platform Value="None" />
         <RunPlatform Value="Mac" />
-        <FrameworkVersion Value="cocos2d-x-3.7" />
+        <FrameworkVersion Value="cocos2d-x-3.7.1" />
         <IsDebugKeystore Value="True" />
         <KeystorePassword Value="" />
         <KeystoreAliasName Value="" />

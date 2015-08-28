@@ -57,6 +57,11 @@ bool HelloWorld::init()
     auto btnClose = rootNode->getChildByName<ui::Button*>("btnClose");
     btnClose->addClickEventListener(CC_CALLBACK_1(HelloWorld::menuCloseCallback, this));
     
+    _txtStatus = rootNode->getChildByName<ui::Text*>("txtStatus");
+    
+    auto btnCheck = rootNode->getChildByName<ui::Button*>("btnCheck");
+    btnCheck->addClickEventListener(CC_CALLBACK_1(HelloWorld::onCheckStatus, this));
+    
     return true;
 }
 
@@ -81,6 +86,19 @@ void HelloWorld::menuCloseCallback(Ref* pSender)
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
     exit(0);
 #endif
+}
+
+void HelloWorld::onCheckStatus(cocos2d::Ref* pSender)
+{
+    if (sdkbox::PluginVungle::isCacheAvailable())
+    {
+        _txtStatus->setString("Ready");
+    }
+    else
+    {
+        _txtStatus->setString("Not Ready");
+    }
+
 }
 
 void HelloWorld::onVungleCacheAvailable()

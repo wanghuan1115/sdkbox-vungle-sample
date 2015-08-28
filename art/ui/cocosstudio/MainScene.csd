@@ -85,6 +85,43 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
+          <AbstractNodeData Name="btnCheck" ActionTag="477718308" Tag="8" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="567.6016" RightMargin="562.3984" TopMargin="464.3328" BottomMargin="205.6672" TouchEnable="True" FontSize="36" ButtonText="Check" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="72" Scale9Height="18" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="204.0000" Y="80.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="669.6016" Y="245.6672" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5020" Y="0.3276" />
+            <PreSize X="0.1529" Y="0.1067" />
+            <TextColor A="255" R="255" G="255" B="255" />
+            <DisabledFileData Type="Normal" Path="button_disable.png" Plist="" />
+            <PressedFileData Type="Normal" Path="button_highlight.png" Plist="" />
+            <NormalFileData Type="Normal" Path="button.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Text_2" ActionTag="-1696925875" Tag="10" IconVisible="False" HorizontalEdge="LeftEdge" VerticalEdge="TopEdge" LeftMargin="497.1038" RightMargin="700.8962" TopMargin="615.1252" BottomMargin="80.8747" FontSize="48" LabelText="Cache Status:" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+            <Size X="301.0000" Y="54.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="565.1038" Y="107.8747" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4236" Y="0.1438" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="txtStatus" ActionTag="1269665958" Tag="11" IconVisible="False" HorizontalEdge="LeftEdge" VerticalEdge="TopEdge" LeftMargin="729.9916" RightMargin="304.0084" TopMargin="615.1254" BottomMargin="80.8746" IsCustomSize="True" FontSize="48" LabelText="not ready" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+            <Size X="300.0000" Y="54.0000" />
+            <AnchorPoint ScaleY="0.5000" />
+            <Position X="729.9916" Y="107.8746" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5472" Y="0.1438" />
+            <PreSize X="0.2249" Y="0.0720" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>

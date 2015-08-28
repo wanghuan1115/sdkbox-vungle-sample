@@ -17,6 +17,8 @@ public:
     // a selector callback
     void menuCloseCallback(cocos2d::Ref* pSender);
     
+    void onCheckStatus(cocos2d::Ref* pSender);
+    
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
     
@@ -24,6 +26,7 @@ private:
     cocos2d::ui::Button* _btnVideo;
     cocos2d::ui::Button* _btnReward;
     cocos2d::ui::Text* _txtCoin;
+    cocos2d::ui::Text* _txtStatus;
     int _coin;
     
     void onPlayVideo(cocos2d::Ref* pSender);
