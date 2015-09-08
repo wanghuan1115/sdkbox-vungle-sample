@@ -1,6 +1,10 @@
 *.zip
 
 # Android
+gdb.setup
+gdbserver
+libcocos2dcpp.so
+libcocos2djs.so
 *.apk
 bin/
 obj/
@@ -9,6 +13,8 @@ assets/
 cpp/proj.android/libs/
 js/frameworks/runtime-src/proj.android/libs/
 local.properties
+proguard-project.txt
+**/app/build.xml
 
 # Xcode
 .DS_Store
@@ -30,4 +36,3 @@ DerivedData
 .idea/
 # Pods - for those of you who use CocoaPods
 Pods
-
