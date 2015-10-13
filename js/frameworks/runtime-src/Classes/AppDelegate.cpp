@@ -125,7 +125,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     sc->addRegisterCallback(register_all_cocos2dx_3d_extension);
     
     sc->addRegisterCallback(register_all_PluginVungleJS);
-    sc->addRegisterCallback(register_PluginVungleJs_helper);
+    sc->addRegisterCallback(register_all_PluginVungleJS_helper);
     
 #if CC_USE_3D_PHYSICS && CC_ENABLE_BULLET_INTEGRATION
     // Physics 3d can be commented out to reduce the package
