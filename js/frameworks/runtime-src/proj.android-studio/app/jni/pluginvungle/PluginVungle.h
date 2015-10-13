@@ -34,6 +34,11 @@ namespace sdkbox
          * Vungle ad has been viewed.
          */
         virtual void onVungleAdViewed(bool isComplete) = 0;
+        
+        /*!
+         * Vungle reward ad has benviewed
+         */
+        virtual void onVungleAdReward(const std::string& name) = 0;
     };
 
     class PluginVungle

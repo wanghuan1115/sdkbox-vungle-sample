@@ -41,6 +41,8 @@
 
 #include "PluginVungleJS.hpp"
 #include "PluginVungleJSHelper.h"
+#include "PluginVungleJS.hpp"
+#include "PluginVungleJSHelper.h"
 
 USING_NS_CC;
 using namespace CocosDenshion;
@@ -148,6 +150,9 @@ bool AppDelegate::applicationDidFinishLaunching()
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
     sc->addRegisterCallback(JavaScriptObjCBridge::_js_register);
 #endif
+
+    sc->addRegisterCallback(register_all_PluginVungleJS);
+    sc->addRegisterCallback(register_all_PluginVungleJS_helper);
     sc->start();    
     sc->runScript("script/jsb_boot.js");
 #if defined(COCOS2D_DEBUG) && (COCOS2D_DEBUG > 0)

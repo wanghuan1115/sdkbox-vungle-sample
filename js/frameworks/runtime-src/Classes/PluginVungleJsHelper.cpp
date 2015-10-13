@@ -149,14 +149,14 @@ JSBool js_PluginVungleJS_PluginVungle_setListener(JSContext *cx, unsigned argc, 
 
 #if defined(MOZJS_MAJOR_VERSION)
 #if MOZJS_MAJOR_VERSION >= 33
-void register_PluginVungleJs_helper(JSContext* cx, JS::HandleObject global) {
+void register_all_PluginVungleJS_helper(JSContext* cx, JS::HandleObject global) {
     JS::RootedObject pluginObj(cx);
     sdkbox::getJsObjOrCreat(cx, global, "sdkbox.PluginVungle", &pluginObj);
 
     JS_DefineFunction(cx, pluginObj, "setListener", js_PluginVungleJS_PluginVungle_setListener, 1, JSPROP_READONLY | JSPROP_PERMANENT);
 }
 #else
-void register_PluginVungleJs_helper(JSContext* cx, JSObject* global) {
+void register_all_PluginVungleJS_helper(JSContext* cx, JSObject* global) {
     JS::RootedObject pluginObj(cx);
     sdkbox::getJsObjOrCreat(cx, JS::RootedObject(cx, global), "sdkbox.PluginVungle", &pluginObj);
 
@@ -164,7 +164,7 @@ void register_PluginVungleJs_helper(JSContext* cx, JSObject* global) {
 }
 #endif
 #elif defined(JS_VERSION)
-void register_PluginVungleJs_helper(JSContext* cx, JSObject* global) {
+void register_all_PluginVungleJS_helper(JSContext* cx, JSObject* global) {
     jsval pluginVal;
     JSObject* pluginObj;
     pluginVal = sdkbox::getJsObjOrCreat(cx, global, "sdkbox.PluginVungle", &pluginObj);
