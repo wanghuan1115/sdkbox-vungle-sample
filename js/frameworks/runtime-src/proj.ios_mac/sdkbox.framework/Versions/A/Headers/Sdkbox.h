@@ -11,6 +11,7 @@ namespace sdkbox {
 
     void init( const char* application_token, const char* application_key );
     void init( const char* application_token, const char* application_key, bool debug );
+    void setProjectType(const char* project_type);
 }
 
 #endif//_CC_SDKBOX_H_
