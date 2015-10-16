@@ -7,9 +7,9 @@
 
 
 #if MOZJS_MAJOR_VERSION >= 31
-void register_PluginVungleJs_helper(JSContext* cx, JS::HandleObject global);
+void register_all_PluginVungleJS_helper(JSContext* cx, JS::HandleObject global);
 #else
-void register_PluginVungleJs_helper(JSContext* cx, JSObject* global);
+void register_all_PluginVungleJS_helper(JSContext* cx, JSObject* global);
 #endif
 
 

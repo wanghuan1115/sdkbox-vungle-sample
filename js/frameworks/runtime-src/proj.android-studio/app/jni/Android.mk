@@ -6,7 +6,7 @@ LOCAL_MODULE := cocos2djs_shared
 
 LOCAL_MODULE_FILENAME := libcocos2djs
 
-LOCAL_SRC_FILES := hellojavascript/main.cpp ../../../Classes/AppDelegate.cpp ../../../Classes/PluginVungleJS.cpp ../../../Classes/PluginVungleJS.hpp ../../../Classes/PluginVungleJsHelper.cpp ../../../Classes/PluginVungleJsHelper.h ../../../Classes/SDKBoxJSHelper.cpp ../../../Classes/SDKBoxJSHelper.h
+LOCAL_SRC_FILES := hellojavascript/main.cpp ../../../Classes/AppDelegate.cpp ../../../Classes/PluginVungleJS.cpp ../../../Classes/PluginVungleJS.hpp ../../../Classes/PluginVungleJsHelper.cpp ../../../Classes/PluginVungleJsHelper.h ../../../Classes/SDKBoxJSHelper.cpp ../../../Classes/SDKBoxJSHelper.h ../../../Classes/PluginVungleJSHelper.cpp ../../../Classes/PluginVungleJSHelper.h
 
 LOCAL_LDLIBS := -landroid -llog
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes

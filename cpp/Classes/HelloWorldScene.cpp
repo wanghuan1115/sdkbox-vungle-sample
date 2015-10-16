@@ -133,7 +133,9 @@ void HelloWorld::onVungleAdViewed(bool isComplete)
 
 void HelloWorld::onVungleAdReward(const std::string& name)
 {
-    CCLOG("Receive reward");
-    _coin ++;
-    _txtCoin->setString(to_string(_coin));
+    cocos2d::Director::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
+        CCLOG("Receive reward");
+        _coin ++;
+        _txtCoin->setString(to_string(_coin));
+    });
 }
