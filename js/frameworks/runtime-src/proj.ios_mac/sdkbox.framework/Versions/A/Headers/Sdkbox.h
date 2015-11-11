@@ -7,7 +7,7 @@
 #ifndef _CC_SDKBOX_H_
 #define _CC_SDKBOX_H_
 
-#define SDKBOX_VERSION_STR  "sdkbox V1.4.0.5"
+#define SDKBOX_VERSION_STR  "sdkbox V1.4.0.9"
  
 namespace sdkbox {
 
